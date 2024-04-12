@@ -5,7 +5,7 @@ import re
 mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Hunny@22",
+        password="",
         database="chatbot_schema"
     )
 def store_details(query_text):
